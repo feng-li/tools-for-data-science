@@ -101,6 +101,8 @@ venv.bak/
 /site
 
 # mypy
+
+tds*/
 .mypy_cache/
 
 # teachings
