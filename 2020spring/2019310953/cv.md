@@ -12,5 +12,3 @@
 
 #Interests
 ##Chinese calligraphy and painting
-
-
