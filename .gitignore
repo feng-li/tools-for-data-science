@@ -104,6 +104,10 @@ venv.bak/
 
 tds*/
 .mypy_cache/
+**/*.pptx
+**/*.tex
+**/*.pdf
+
 
 # teachings
 20*/
