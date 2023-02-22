@@ -7,7 +7,7 @@ html:
 	jupyter-nbconvert **/**.ipynb  --to html
 
 zip:
-	git archive --output=dts-slides.zip HEAD
+	git archive --output=tds-slides.zip HEAD
 
 sync:
-	rsync -av --delete-excluded --prune-empty-dirs --include '*/' --include '*slides.zip' --include 'dts-data.zip'   --include '*.ipynb' --include '*.slides.html' --include 'figures/*'  --exclude '*' .  ${HOME}/nextcloud/feng.li/dts/
+	rsync -av --delete-excluded --prune-empty-dirs --include '*/' --include '*slides.zip' --include 'dts-data.zip'   --include '*.ipynb' --include '*.slides.html' --include 'figures/*'  --exclude '*' .  ${HOME}/nextcloud/feng.li/tds/
